@@ -10,7 +10,7 @@ NOTE: [runkit7](https://github.com/runkit7/runkit7¬) is needed for Spy and Mock
 
 ## Our first test
 
-Let's write a function that sums two numbers:
+Let's write a function that sums two numbers:__
 
 ```php
 function sum($number1, $number2)

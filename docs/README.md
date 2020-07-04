@@ -52,6 +52,8 @@ getAnswerToEverything();
 expect($spy)->toHaveBeenCalledWith();
 ```
 
+**NOTE**: Spies require [runkit7](https://github.com/runkit7/runkit7) to work!
+
 ## Easy mocking
 
 Easy to use syntax for mocking class
@@ -85,3 +87,5 @@ $result = doIt();
 expect($func)->toHaveBeenCalledWith();
 expect($result)->toBe('ciao');
 ```
+
+**NOTE**: Mocking a class requires [runkit7](https://github.com/runkit7/runkit7) to work!
