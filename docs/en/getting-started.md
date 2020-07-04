@@ -8,27 +8,6 @@ composer require "verdephp/verde" --dev
 
 NOTE: [runkit7](https://github.com/runkit7/runkit7¬) is needed for Spy and Mocks on functions and classes. Follow the github [installation instructions](https://github.com/runkit7/runkit7#installation) to install and enable it.
 
-## BDD Style
-
-The library provides the `expect` helper method for writing BDD style tests, example:
-
-```php
-<?php
-use function Verde\expect;
-
-$answer = 43;
-
-// error: 
-// expected(expected)->toEqual(received)
-//
-// Expected: 43
-// Received: 42.
-expect($answer)->toBe(42);
-
-// You can also include a custom assert message
-expect($answer, 'The Answer to Everything')->toBe(42);
-```
-
 ## Our first test
 
 Let's write a function that sums two numbers:
@@ -67,4 +46,4 @@ That's all, easy not?
 
 ### What's next?
 
-To learn more about the other things that _Verde_ can do, see [Expect](expect.md), [Matchers](matchers.html), [Spies](/en/spies.html) and [Mocks](/en/mocks.html).
+To learn more about the other things that **Verde** can do, see [Expect](/en/expect.html), [Matchers](/en/matchers.html), [Spies](/en/spies.html) and [Mocks](/en/mocks.html).
