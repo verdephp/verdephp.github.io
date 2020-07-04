@@ -1,0 +1,26 @@
+{
+    "name": "verde",
+    "version": "0.1.0",
+    "description": "a BDD Style Library for your PHP Tests ",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "docs:dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/verdephp/verdephp.github.io.git"
+    },
+    "author": "Ceceppa",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/verdephp/verdephp.github.io"
+    },
+    "homepage": "https://verdephp.github.io",
+    "dependencies": {
+        "@vuepress/theme-default": "^1.5.2",
+        "vuepress": "^1.5.2"
+    }
+}
